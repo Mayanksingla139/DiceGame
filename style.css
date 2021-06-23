@@ -1,0 +1,60 @@
+body {
+  background-color: #6a6e75;
+}
+
+h1 {
+  margin: 30px;
+  font-size: 6rem;
+  font-family: "Dancing Script", cursive;
+  color: aliceblue;
+  text-shadow: 8px 0 black;
+}
+
+p {
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+  color: aliceblue;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+  color: aliceblue;
+  text-align: center;
+  text-emphasis: 3;
+}
+
+.container {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+.btn {
+  background-color: brown;
+  border: solid 0.13rem black;
+  border-radius: 0.3125rem;
+  color: aliceblue;
+  display: inline-block;
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2.5%;
+  padding: 0.9375rem 2rem;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: rgba(177, 97, 97, 0.527);
+  transform: scaleX(0.9) translateY(4px);
+}
